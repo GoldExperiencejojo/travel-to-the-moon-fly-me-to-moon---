@@ -169,7 +169,7 @@ MonoBehaviour:
   jumpPower: 2
   horizontalSpeedLimit: 6
   UpSpeedLimit: 6
-  LoseMenu: {fileID: 0}
+  LoseMenu: {fileID: 1501813121204168488}
   WinMenu: {fileID: 0}
   up: 0
   right: 0

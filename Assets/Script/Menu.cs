@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,8 +9,12 @@ public class Menu : MonoBehaviour
     public GameObject Middle;
     public void PlayGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
         Time.timeScale = 1f;
+    }
+    public void login()
+    {
+        SceneManager .LoadScene (1);
     }
 
     public void QuitGame()
@@ -19,19 +23,31 @@ public class Menu : MonoBehaviour
     }
     public void Setting()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
+    }
+    public void About()
+    {
+        SceneManager .LoadScene (4);
     }
     public void Return()
     {
         SceneManager.LoadScene(0);
     }
+    public void Return1()
+    {
+        SceneManager .LoadScene (3);
+    }
     public void level1()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(5);
     }
     public void level2()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(6);
+    }
+    public void level3()
+    {
+        SceneManager.LoadScene(7);
     }
     public void PauseGame()
     {
